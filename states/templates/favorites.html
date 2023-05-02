@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "/static/css/favorites.css">
+    <style>
+        h1 {
+            font-size: 40px;
+            margin-top: 50px;
+        }
+    </style>
+    {% extends 'base.html' %}
+    <title>Document</title>
+</head>
+{% block content %}
+    <div class = "content">
+    <body>
+        <div class = "header"><h1>Favorite Activities:</h1></div>
+        {% if new %}
+        {% for activity in new %}
+        <div class = "parent">
+            <div class = "child">
+                <div class = "activity"><a href = "{% url 'activity' activity.id %}">{{ activity.name }}</a></div>
+            </div>
+        </div>
+        <br/>
+        {% endfor %}
+        {% else %}
+        <div style = "margin-left: 20px;">
+            No favorites. Begin searching for states to add some!
+        </div>
+        {% endif %}
+    </body>
+    </div>  
+{% endblock %}
+</html>
