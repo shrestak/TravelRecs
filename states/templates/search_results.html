@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    h1 {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href = "/static/css/search.css">
+    {% extends 'base.html' %}
+    <title>Document</title>
+</head>
+{% block content %}
+    <body>
+        <h1>Results for {{request.GET.q}}:</h1>
+            <ul>
+            {% if request.GET.q != '' %}
+            {% if object_list %}
+                <br/>
+                {% for activity in object_list %}
+                <div class = "parent">
+                    <div class = "child">
+                    <div class = "activity" style = "text-decoration: none;">
+                        <h2><a href = "{% url 'activity' activity.id %}">{{ activity.name }}</a></h2>
+                    </div>
+                    <br/>
+                    <div class = "description"><b>Type of Activity: </b>{{ activity.category }}</div>
+                    </div>
+                    
+                    <br/>
+                </div>
+                {% endfor %}
+            </ul>
+            {% else %}
+            <div style = "margin-left: 20px;">
+                No search results for this query
+                <br/>
+                <br/>
+
+            {% endif %}
+            {% endif %}
+            </div>
+    </body>
+{% endblock %}
+</html>
