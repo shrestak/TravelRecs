@@ -12,7 +12,7 @@
 </p>
 
 ### Home Page
-![HomePage](/images/main page.jpeg)
+<img alt="HomePage" src="/images/main page.jpeg" width="45%">
 
 ### List of Attractions per State
 ##### For example: Alaska
