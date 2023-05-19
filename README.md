@@ -10,3 +10,24 @@
 &nbsp; &nbsp; &nbsp; &nbsp;
   <img alt="Login" src="/images/login.jpeg" width="45%">
 </p>
+
+### Home Page
+![HomePage](/images/main page.jpeg)
+
+### Home Page
+![HomePage](/images/main page.jpeg)
+
+##List of Attractions per State
+#### For example: Fountainhead Antique Auto Museum - Alaska
+![List](/images/attraction list.jpeg)
+
+##Description of Attraction
+#### For example: Alaska
+![Description](/images/description.jpeg)
+
+##Favorite Page
+#### Once attraction is favorited
+![Favorite](/images/favorite page.jpeg)
+
+
+
