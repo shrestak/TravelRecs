@@ -14,19 +14,16 @@
 ### Home Page
 ![HomePage](/images/main page.jpeg)
 
-### Home Page
-![HomePage](/images/main page.jpeg)
-
-##List of Attractions per State
-#### For example: Fountainhead Antique Auto Museum - Alaska
+### List of Attractions per State
+##### For example: Alaska
 ![List](/images/attraction list.jpeg)
 
-##Description of Attraction
-#### For example: Alaska
+### Description of Attraction
+##### For example: Fountainhead Antique Auto Museum - Alaska
 ![Description](/images/description.jpeg)
 
-##Favorite Page
-#### Once attraction is favorited
+### Favorite Page
+##### Once attraction is favorited
 ![Favorite](/images/favorite page.jpeg)
 
 
