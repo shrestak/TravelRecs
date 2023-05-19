@@ -12,19 +12,27 @@
 </p>
 
 ### Home Page
-<img alt="HomePage" src="/images/main page.jpeg" width="45%">
+<p align="center">
+  <img alt="HomePage" src="/images/main page.jpeg" width="45%">
+</p>
 
 ### List of Attractions per State
 ##### For example: Alaska
-![List](/images/attraction list.jpeg)
+<p align="center">
+  <img alt="List" src="/images/attraction list.jpeg" width="45%">
+</p>
 
 ### Description of Attraction
 ##### For example: Fountainhead Antique Auto Museum - Alaska
-![Description](/images/description.jpeg)
+<p align="center">
+  <img alt="Description" src="/images/description.jpeg" width="45%">
+</p>
 
 ### Favorite Page
 ##### Once attraction is favorited
-![Favorite](/images/favorite page.jpeg)
+<p align="center">
+  <img alt="Favorite" src="/images/favorite page.jpeg" width="45%">
+</p>
 
 
 
